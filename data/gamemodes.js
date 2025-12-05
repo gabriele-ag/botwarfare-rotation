@@ -4,6 +4,7 @@ const gameModes = [
     "Cattura la bandiera",
     "Dominio",
     "Uccisione confermata",
+    "Quartier Generale"
 ]
 
 export {gameModes}

@@ -62,7 +62,7 @@ const mapsBlackOps1 = [
     "Havana",
     "Jungle",
     "Launch",
-    "Nuketown", // Iconica
+    "Nuketown",
     "Radiation",
     "Summit",
     "Villa",

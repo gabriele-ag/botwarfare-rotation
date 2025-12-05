@@ -21,13 +21,12 @@
         <section class="sectionScelta">
             <div class="container divScelta">
                 <h2 class="titleScelta">Scegli il gioco</h2>
-                <select>
-                    <option value="/">Seleziona</option>
-                    <option value="">Call of Duty - Modern Warfare 2</option>
-                    <option value="">Call of Duty - Modern Warfare 3</option>
-                    <option value="">Call of Duty - Black Ops</option>
-                    <option value="">Call of Duty - Black Ops 2</option>
-                    <option value="">Call of Duty - World at War</option>
+                <select id="codSelector">      
+                    <option value="MW2">Call of Duty - Modern Warfare 2</option>
+                    <option value="MW3">Call of Duty - Modern Warfare 3</option>
+                    <option value="BO1">Call of Duty - Black Ops</option>
+                    <option value="BO2">Call of Duty - Black Ops 2</option>
+                    <option value="WAW">Call of Duty - World at War</option>
                 </select>
                 <button class="randomizeButton" id="randomizeButton">Gira la ruota!</button>
             </div>
@@ -42,6 +41,9 @@
                 <p>Quantità di bot: <span id="bots">...</span></p>
                 <p>Punteggio Limite: <span id="score">.../span></p>
                 <p>Salute(HP): <span id="health">...</span></p>
+                <p>Veterano ? <span id="veteran">...</span></p>
+                <p>Recupero vita: <span id="healthrecovery">...</span></p>
+                <p>Tempo di rientro: <span id="timespawn">...</span></p>
             </div>
         </section>
     </main>
