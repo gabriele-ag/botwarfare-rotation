@@ -6,7 +6,7 @@ const gameModes = [
     "Uccisione confermata",
 ]
 
-const maps = [
+const mapsMW2 = [
     "Crossfire",
     "Terminal",
     "Dome",
@@ -41,7 +41,7 @@ function getRandomInt(min, max) {
 
 function randomizeSettings() {
     const selectedGameMode = getRandomItem(gameModes)
-    const selectedMap = getRandomItem(maps)
+    const selectedMap = getRandomItem(mapsMW2)
     const selectedBots = getRandomInt(botsMin, botsMax)
     const selectedHealth = getRandomItem(health)
     const selectedScoreLimit = getRandomItem(scoreLimits)

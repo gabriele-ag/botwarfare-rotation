@@ -9,12 +9,42 @@
 /* Common */
 
 .container {
-    
+    margin: auto;
+    padding: 0;
+    max-width: 80%;
 }
 
 
 header {
     color: white;
     background-color: rgb(27, 182, 27);
+}
+
+.titleApp {
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Sezione Scelta */
+.divScelta {
+    margin-top: 70px;
+}
+
+.titleScelta {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Orbitron", sans-serif;
+}
+
+/* Sezione Risultati */
+.divResults {
+    margin-top: 50px;
+}
+
+.titleResults {
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 20px;
 }
 

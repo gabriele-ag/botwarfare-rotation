@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
     <title>BW Randomizer</title>
+
+
 </head>
 <body>
     <header>
-        <h1>Bot Warfare - Randomizer</h1>
+        <h1 class="titleApp">Bot Warfare - Randomizer</h1>
     </header>
     <main>
         <!-- Scelta gioco -->
-        <section>
-            <div class="divRandomizer">
-                <h3>Scegli il gioco</h3>
-                <select name="" id="">
+        <section class="sectionScelta">
+            <div class="container divScelta">
+                <h2 class="titleScelta">Scegli il gioco</h2>
+                <select>
                     <option value="/">Seleziona</option>
                     <option value="">Call of Duty - Modern Warfare 2</option>
                     <option value="">Call of Duty - Modern Warfare 3</option>
@@ -25,15 +31,12 @@
                 </select>
                 <button class="randomizeButton" id="randomizeButton">Gira la ruota!</button>
             </div>
-            <div class="divRandomizer">
-
-            </div>
         </section>
 
         <!-- Risultati -->
-        <section id="results">
-            <div>
-                <h2>Risultati</h2>
+        <section class="sectionResults" id="results">
+            <div class="container divResults">
+                <h2 class="titleResults">Risultati</h2>
                 <p>Mappa: <span id="map">...</span></p>
                 <p>Modalità di gioco: <span id="gameMode">...</span></p>
                 <p>Quantità di bot: <span id="bots">...</span></p>
