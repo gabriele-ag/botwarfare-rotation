@@ -21,7 +21,7 @@
 /* HEADER */
 header {
     color: white;
-    background-color: rgb(27, 182, 27);
+    background-color: rgb(27, 182, 61);
 }
 
 .titleApp {
@@ -45,13 +45,47 @@ header {
     font-family: "Orbitron", sans-serif;
 }
 
+.selectGame {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.randomizeButton {
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(27, 182, 61);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease-in-out;
+}
+
+.randomizeButton:hover {
+    border: 1px solid rgb(27, 182, 61);
+    background-color: transparent;
+    color: rgb(27, 182, 61);
+}
+
 /* Sezione Risultati */
 .divResults {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
     margin-top: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settings {
+    color: rgb(27, 182, 61);
+    font-size: 15px;
+}
+
+.results {
+    color: brown;
 }
 
 .titleResults {
     font-family: "Orbitron", sans-serif;
     margin-bottom: 20px;
 }
-

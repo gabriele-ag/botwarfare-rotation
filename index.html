@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
     <title>BW Randomizer</title>
 
-
 </head>
 <body>
     <header>
@@ -21,14 +20,15 @@
         <section class="sectionScelta">
             <div class="container divScelta">
                 <h2 class="titleScelta">Scegli il gioco</h2>
-                <select id="codSelector">      
+                <select class="selectGame" id="codSelector">
+                    <option value="default" selected disabled>Seleziona il gioco</option>      
                     <option value="MW2">Call of Duty - Modern Warfare 2</option>
                     <option value="MW3">Call of Duty - Modern Warfare 3</option>
                     <option value="BO1">Call of Duty - Black Ops</option>
                     <option value="BO2">Call of Duty - Black Ops 2</option>
                     <option value="WAW">Call of Duty - World at War</option>
                 </select>
-                <button class="randomizeButton" id="randomizeButton">Gira la ruota!</button>
+                <button class="randomizeButton" id="randomizeButton" disabled>Gira la ruota!</button>
             </div>
         </section>
 
@@ -36,14 +36,14 @@
         <section class="sectionResults" id="results">
             <div class="container divResults">
                 <h2 class="titleResults">Risultati</h2>
-                <p>Mappa: <span id="map">...</span></p>
-                <p>Modalità di gioco: <span id="gameMode">...</span></p>
-                <p>Quantità di bot: <span id="bots">...</span></p>
-                <p>Punteggio Limite: <span id="score">.../span></p>
-                <p>Salute(HP): <span id="health">...</span></p>
-                <p>Veterano ? <span id="veteran">...</span></p>
-                <p>Recupero vita: <span id="healthrecovery">...</span></p>
-                <p>Tempo di rientro: <span id="timespawn">...</span></p>
+                <p class="settings">Mappa: <span class="results" id="map">...</span></p>
+                <p class="settings">Modalità di gioco: <span class="results" id="gameMode">...</span></p>
+                <p class="settings">Quantità di bot: <span class="results" id="bots">...</span></p>
+                <p class="settings">Punteggio Limite: <span class="results" id="score">...</span></p>
+                <p class="settings">Salute(HP): <span class="results" id="health">...</span></p>
+                <p class="settings">Veterano ? <span class="results" id="veteran">...</span></p>
+                <p class="settings">Recupero vita: <span class="results" id="healthrecovery">...</span></p>
+                <p class="settings">Tempo di rientro: <span class="results" id="timespawn">...</span></p>
             </div>
         </section>
     </main>

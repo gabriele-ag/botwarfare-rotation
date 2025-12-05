@@ -23,7 +23,7 @@ selectedGame.addEventListener('change', () => {
     const selectedGameKey = selectedGame.value;
     selectedMapArray = mapGames[selectedGameKey] || [];
     randomizeButton.disabled = selectedGameKey === 'default';
-    document.getElementById('map').textContent = 'Pronto a generare!';
+    document.getElementById('map').textContent = '...';
 });
 
 // Funzioni per la scelta casuale di modalità, bot e settaggi vari
@@ -51,6 +51,8 @@ function randomizeSettings() {
     if (selectedMapArray.length > 0) {
         const selectedMap = getRandomItem(selectedMapArray)
         document.getElementById('map').textContent = selectedMap
+    } else {    
+        document.getElementById('map').textContent = 'Seleziona prima un gioco!';
     }
 
     document.getElementById('gameMode').textContent = selectedGameMode
