@@ -11,19 +11,39 @@
         <h1>Bot Warfare - Randomizer</h1>
     </header>
     <main>
-        <div class="divRandomizer">
-            <h3>Scegli il gioco</h3>
-            <select name="" id="">
-                <option value="/">Seleziona</option>
-                <option value="">Call of Duty Modern Warfare 2</option>
-                <option value="">Call of Duty Modern Warfare 3</option>
-                <option value="">Call of Duty Black Ops</option>
-                <option value="">Call of Duty </option>
-            </select>
-        </div>
+        <!-- Scelta gioco -->
+        <section>
+            <div class="divRandomizer">
+                <h3>Scegli il gioco</h3>
+                <select name="" id="">
+                    <option value="/">Seleziona</option>
+                    <option value="">Call of Duty - Modern Warfare 2</option>
+                    <option value="">Call of Duty - Modern Warfare 3</option>
+                    <option value="">Call of Duty - Black Ops</option>
+                    <option value="">Call of Duty - Black Ops 2</option>
+                    <option value="">Call of Duty - World at War</option>
+                </select>
+                <button class="randomizeButton" id="randomizeButton">Gira la ruota!</button>
+            </div>
+            <div class="divRandomizer">
+
+            </div>
+        </section>
+
+        <!-- Risultati -->
+        <section id="results">
+            <div>
+                <h2>Risultati</h2>
+                <p>Mappa: <span id="map">...</span></p>
+                <p>Modalità di gioco: <span id="gameMode">...</span></p>
+                <p>Quantità di bot: <span id="bots">...</span></p>
+                <p>Punteggio Limite: <span id="score">.../span></p>
+                <p>Salute(HP): <span id="health">...</span></p>
+            </div>
+        </section>
     </main>
     <footer>
-
+        
     </footer>   
 
 
