@@ -1,17 +1,5 @@
-const gameModes = [
-    "Tutti contro Tutti",
-    "Deathmatch a Squadre",
-    "Cattura la bandiera",
-    "Dominio",
-    "Uccisione confermata",
-]
-
-const mapsMW2 = [
-    "Crossfire",
-    "Terminal",
-    "Dome",
-    "Rust",
-]
+import {mapsBlackOps1, mapsBlackOps2, mapsMW2, mapsMW3, mapsWaW} from "./data/maps.js"
+import { gameModes } from "./data/gamemodes.js"
 
 const botsMin = 5
 const botsMax = 11

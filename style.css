@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Common */
 
 .container {
@@ -15,6 +17,8 @@
 }
 
 
+
+/* HEADER */
 header {
     color: white;
     background-color: rgb(27, 182, 27);
@@ -27,6 +31,9 @@ header {
     text-align: center;
 }
 
+
+
+/* MAIN */
 /* Sezione Scelta */
 .divScelta {
     margin-top: 70px;
