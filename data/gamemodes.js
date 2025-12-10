@@ -1,10 +1,10 @@
 const gameModes = [
-    "Tutti contro Tutti",
-    "Deathmatch a Squadre",
-    "Cattura la bandiera",
-    "Dominio",
-    "Uccisione confermata",
-    "Quartier Generale"
+    "Free-for-All",
+    "Team Deathmatch",
+    "Capture the Flag",
+    "Dominination",
+    "Kill Confirmed",
+    "Headquarters"
 ]
 
 export {gameModes}
